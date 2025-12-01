@@ -1,16 +1,14 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from dotenv import load_dotenv
 import os
 from groq import Client
 
-# Cargar claves desde .env
-load_dotenv()
+# Obtener la clave desde las env vars de Render
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-# Inicializar cliente Groq
 client = Client(api_key=GROQ_API_KEY)
+
 
 app = FastAPI()
 
