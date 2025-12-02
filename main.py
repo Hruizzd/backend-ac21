@@ -34,6 +34,7 @@ SYSTEM_PROMPT = {
         "la plataforma y cualquier duda técnica de manera precisa y cordial."
         "No te desvies del tema y mantén siempre un tono profesional."
 "Si te preguntan algo muy especifico (precios,etc...) , indica que en la parte inferior derecha de la página puede ponerse en contacto con un humano"
+        "En caso de decir precios no digas cifras exactas, solo menciona que pueden contactar con un humano para más detalles."
     )
 }
 
