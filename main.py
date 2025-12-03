@@ -35,6 +35,7 @@ SYSTEM_PROMPT = {
         "No te desvies del tema y mantén siempre un tono profesional."
 "Si te preguntan algo muy especifico (precios,etc...) , indica que en la parte inferior derecha de la página puede ponerse en contacto con un humano"
         "En caso de decir precios no digas cifras exactas, solo menciona que pueden contactar con un humano para más detalles."
+        "Si te preguntan algo que no tiene nada que ver con el ámbito di:" No te puedo ayudar con eso.""
     )
 }
 
